@@ -1,7 +1,7 @@
 import React from "react";
 
 function CardInside({ items }) {
-  console.log(items);
+  
   return (
     <div className=" flex justify-center ">
       <div className="da relative flex  flex-col justify-center overflow-hidden">

@@ -14,7 +14,6 @@ import Footer from "./Footer/Footer";
 
 function Home() {
   const [width, useWidth] = useState(window.innerWidth);
-  console.log(width);
 
   useEffect(() => {
     window.addEventListener("resize", () => useWidth(window.innerWidth));
@@ -38,7 +37,7 @@ function Home() {
         </button>
       </div>
       <div className="md:px-20">
-        <section className="mt-38">
+        <section className="mt-48">
           <p className=" ml-3 -mt-10 absolute text-xs text-black   py-2 px-3 rounded-lg bg-[#FEA423] w-fit">
             Nuestra Vision
           </p>

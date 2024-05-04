@@ -2,11 +2,13 @@ import React from "react";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 import potato from "../Maps/assets/potato.png";
 import store from "../Maps/assets/store.png";
+
 function Maps({ array, larg, heith, view }) {
-  console.log(array);
+  const myVariable = import.meta.env.VITE_MY_VARIABLE;
+
   const { isLoaded } = useJsApiLoader({
-    id: "'google-map-script'",
-    googleMapsApiKey: "AIzaSyAZuwZ7uBFMDan_m43RHFZMGJhHLI-kLMw",
+    id: "google-map-script",
+    googleMapsApiKey: myVariable,
   });
 
   const containerStyle = {
@@ -40,7 +42,6 @@ function Maps({ array, larg, heith, view }) {
           mapTypeControl: false,
           fullscreenControl: false,
           streetView: false,
-          disableDefaultUI: true,
           navigationControl: false,
         }}
         center={center}

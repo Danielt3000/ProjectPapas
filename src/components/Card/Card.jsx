@@ -7,7 +7,7 @@ import LazyLoadedVideo from "../LazyLoadedVideo/LazyLoadedVideo";
 function Card() {
   return (
     <>
-      <div className="py-16  sha ">
+      <div className="py-16 ">
         <div className="container m-auto px-6 text-black md:px-12 xl:px-0 ">
           <div className="mx-auto grid md:w-3/4 lg:w-full lg:grid-cols-3 max-lg:gap-6  ">
             <div className=" bg-white max-lg:rounded-xl  lg:rounded-l-3xl    px-8 py-12 sm:px-12 lg:px-8 shadow-lg ">

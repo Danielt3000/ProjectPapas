@@ -49,12 +49,14 @@ function Local() {
         </h1>
         <div className="flex flex-wrap gap-4 justify-center">
           {lugares.map((item, index) => (
-            <button
-              onClick={() => handleShowMap(item.longitud, item.latitud)}
-              className="relative h-13 w-13 overflow-hidden rounded bg-[#1a1a61f4] px-5 py-2.5 text-white transition-all duration-300 hover:bg-neutral-800 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2"
-            >
-              <span className="relative">{item.nombre}</span>
-            </button>
+            <div key={item.nombre}>
+              <button
+                onClick={() => handleShowMap(item.longitud, item.latitud)}
+                className="relative h-13 w-13 overflow-hidden rounded bg-[#1a1a61f4] px-5 py-2.5 text-white transition-all duration-300 hover:bg-neutral-800 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2"
+              >
+                <span className="relative">{item.nombre}</span>
+              </button>
+            </div>
           ))}
         </div>
         <div className="gap-10 flex flex-wrap mt-4 justify-center">

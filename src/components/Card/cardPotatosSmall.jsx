@@ -4,7 +4,7 @@ import CardInside from "./CardInside";
 
 function CardPotatosSmall() {
   const [activeTab, setActiveTab] = useState(0);
-  console.log(activeTab);
+
   const items = [
     {
       img: "https://agrotendencia.tv/wp-content/uploads/2019/10/agrotendencia-papa-20.jpg",
@@ -49,14 +49,16 @@ function CardPotatosSmall() {
       <p className=" -mt-10 absolute text-xs text-black    py-2 px-3 rounded-lg bg-[#FEA423] w-fit">
         Nuestas Papas
       </p>
-      <h1 className="text-center text-4xl font-bold mt-16 ">Nuestros Productos</h1>
+      <h1 className="text-center text-4xl font-bold mt-16 ">
+        Nuestros Productos
+      </h1>
 
       <div className="flex justify-center mt-5">
         <Tabs
           aria-label="Default tabs"
           style="default"
           onActiveTabChange={(tab) => setActiveTab(tab)}
-          class=" flex !justify-around"
+          className=" flex !justify-around"
         >
           <Tabs.Item active title={items[0].nombre}>
             <CardInside items={items[0]} activeTab={activeTab} />
