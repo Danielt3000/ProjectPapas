@@ -1,0 +1,57 @@
+export const local = {
+  img: "http.sx",
+  nombre: "El Clasico Regio",
+  description: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+  direccion: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+  link: "https:www.google.com/maps/search/Avenida+Los+%C3%81ngeles+%231000,+Interior+258,+Mercado+de+Abastos+%22Estrella%22,+San+Nicolas+de+los+Garza,+Nuevo+Le%C3%B3n,+M%C3%A9xico/@25.7118751,-100.2960582,17z/data=!3m1!4b1?entry=ttu",
+  latitud: 25.730003567445728,
+  longitud: -100.2858830518688,
+};
+
+export const lugares = [
+  {
+    img: "http.sx",
+    nombre: "Veracuz",
+    description: "Pues es veracuj nadie le gusta ir ahi ",
+    direccion: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+    link: "https:www.google.com/maps/search/Avenida+Los+%C3%81ngeles+%231000,+Interior+258,+Mercado+de+Abastos+%22Estrella%22,+San+Nicolas+de+los+Garza,+Nuevo+Le%C3%B3n,+M%C3%A9xico/@25.7118751,-100.2960582,17z/data=!3m1!4b1?entry=ttu",
+    latitud: 18.49063609877442,
+    longitud: -95.52747096073551,
+  },
+  {
+    img: "http.sx",
+    nombre: "Edo. De de México",
+    description: "Pues es veracuj nadie le gusta ir ahi ",
+    direccion: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+    link: "https:www.google.com/maps/search/Avenida+Los+%C3%81ngeles+%231000,+Interior+258,+Mercado+de+Abastos+%22Estrella%22,+San+Nicolas+de+los+Garza,+Nuevo+Le%C3%B3n,+M%C3%A9xico/@25.7118751,-100.2960582,17z/data=!3m1!4b1?entry=ttu",
+    latitud: 19.382886847764475,
+    longitud: -99.16079329576833,
+  },
+  {
+    img: "Peru",
+    nombre: "Sonora",
+    description: "Pues es veracuj nadie le gusta ir ahi ",
+    direccion: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+    link: "https:www.google.com/maps/search/Avenida+Los+%C3%81ngeles+%231000,+Interior+258,+Mercado+de+Abastos+%22Estrella%22,+San+Nicolas+de+los+Garza,+Nuevo+Le%C3%B3n,+M%C3%A9xico/@25.7118751,-100.2960582,17z/data=!3m1!4b1?entry=ttu",
+    latitud: 29.915364430907488,
+    longitud: -110.2377166885907,
+  },
+  {
+    img: "Peru",
+    nombre: "Baja California",
+    description: "Pues es veracuj nadie le gusta ir ahi ",
+    direccion: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+    link: "https:www.google.com/maps/search/Avenida+Los+%C3%81ngeles+%231000,+Interior+258,+Mercado+de+Abastos+%22Estrella%22,+San+Nicolas+de+los+Garza,+Nuevo+Le%C3%B3n,+M%C3%A9xico/@25.7118751,-100.2960582,17z/data=!3m1!4b1?entry=ttu",
+    latitud: 30.749143724538158,
+    longitud: -115.4779929526867,
+  },
+  {
+    img: "Peru",
+    nombre: "Sinaloa",
+    description: "Pues es veracuj nadie le gusta ir ahi ",
+    direccion: "Direccion Los Ángeles #1000, Interior 258, Mercado de Abastos",
+    link: "https:www.google.com/maps/search/Avenida+Los+%C3%81ngeles+%231000,+Interior+258,+Mercado+de+Abastos+%22Estrella%22,+San+Nicolas+de+los+Garza,+Nuevo+Le%C3%B3n,+M%C3%A9xico/@25.7118751,-100.2960582,17z/data=!3m1!4b1?entry=ttu",
+    latitud: 25.211244978109104,
+    longitud: -107.4743092992712,
+  },
+];
